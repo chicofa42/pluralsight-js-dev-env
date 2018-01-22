@@ -1,1 +1,0 @@
-var gob = console.log();
