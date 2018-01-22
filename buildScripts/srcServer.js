@@ -4,7 +4,9 @@ import express from 'express';
 import path from 'path';
 //var open = require('open');
 import open from 'open';
+//var webpack = require('webpack');
 import webpack from 'webpack';
+//var config = require('../webpack.config.dev');
 import config from '../webpack.config.dev';
 
 //var port = 3000;
@@ -30,3 +32,4 @@ app.listen(port, function(err) {
         open('http://localhost:' + port);
     }
 });
+
